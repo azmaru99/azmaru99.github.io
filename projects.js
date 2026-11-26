@@ -8,7 +8,7 @@
 //  tags        : 小さなラベルの配列（技術名など）
 //  date        : 作った時期 "YYYY-MM"（新しい順に並びます）
 //  repo        : ソースコードのURL（任意）
-//  image       : スクリーンショット画像のパス（任意。無ければ盤面の絵を自動生成）
+//  image       : スクリーンショット画像のファイル名（任意。無ければ盤面の絵を自動生成）
 // ===========================================================
 
 const PROJECTS = [
@@ -20,7 +20,7 @@ const PROJECTS = [
     tags: ["JavaScript", "Google Apps Script", "GitHub Pages"],
     date: "2026-10",
     repo: "https://github.com/azmaru99/othello-rating",
-    image: "images/othello-rating.png",
+    image: "othello-rating.png",
   },
   {
     title: "オセロ大会運営サイト",
@@ -30,7 +30,7 @@ const PROJECTS = [
     tags: ["JavaScript", "Google Apps Script", "GitHub Pages"],
     date: "2026-10",
     repo: "https://github.com/azmaru99/othello-tournament",
-    image: "images/othello-tournament.png",
+    image: "othello-tournament.png",
   },
   {
     title: "64マスの一生",
@@ -39,7 +39,7 @@ const PROJECTS = [
     category: "ゲーム",
     tags: ["JavaScript", "Claude Artifact"],
     date: "2026-10",
-    image: "images/life64.png",
+    image: "life64.png",
   },
   {
     title: "オセロ ドラフトリーグ",
@@ -48,7 +48,7 @@ const PROJECTS = [
     category: "ゲーム",
     tags: ["JavaScript", "Claude Artifact"],
     date: "2026-10",
-    image: "images/draft-league.png",
+    image: "draft-league.png",
   },
   {
     title: "オセロ棋譜図メーカー",
@@ -57,6 +57,6 @@ const PROJECTS = [
     category: "ツール",
     tags: ["JavaScript", "Claude Artifact"],
     date: "2026-10",
-    image: "images/kifu-maker.png",
+    image: "kifu-maker.png",
   },
 ];
