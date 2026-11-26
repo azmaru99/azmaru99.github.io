@@ -59,4 +59,23 @@ const PROJECTS = [
     date: "2026-10",
     image: "kifu-maker.png",
   },
+  {
+    title: "カウンティング練習帳",
+    description: "終盤の読み切りを練習する問題集。実戦棋譜から選んだ空き2〜12マスの局面で、最終石数と手順を答えて答え合わせできる。",
+    url: "https://claude.ai/artifact/QxqTHsbGXm82temFMQLf6v",
+    category: "学習",
+    tags: ["JavaScript", "Claude Artifact"],
+    date: "2026-10",
+    image: "counting.png",
+  },
+  {
+    title: "メジャー大会戦績",
+    description: "名人戦・全日本選手権・王座戦（2004年〜）161大会の順位と全対局をまとめたサイト。選手名で検索すると、その人の出場大会と成績が一覧で見られる。",
+    url: "https://azmaru99.github.io/othello-results/",
+    category: "サイト",
+    tags: ["JavaScript", "Python", "GitHub Pages"],
+    date: "2026-11",
+    repo: "https://github.com/azmaru99/othello-results",
+    image: "othello-results.png",
+  },
 ];
